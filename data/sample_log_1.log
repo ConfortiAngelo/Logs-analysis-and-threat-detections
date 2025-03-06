@@ -1,0 +1,60 @@
+[20/Feb/2025:10:00:00] LOGIN FAILED: User 'admin' from IP 192.168.1.50
+[20/Feb/2025:10:02:30] LOGIN FAILED: User 'admin' from IP 192.168.1.51
+[20/Feb/2025:10:05:00] LOGIN FAILED: User 'admin' from IP 192.168.1.52
+[20/Feb/2025:10:07:30] ALERT: Multiple failed login attempts detected for user 'admin'
+[20/Feb/2025:10:10:00] BLOCKED: User 'admin' temporarily locked out
+[20/Feb/2025:10:12:30] LOGIN FAILED: User 'guest' from IP 192.168.1.60
+[20/Feb/2025:10:15:00] ALERT: Suspicious login from blacklisted IP 203.0.113.45
+[20/Feb/2025:10:17:30] LOGIN FAILED: User 'root' from IP 192.168.1.70
+[20/Feb/2025:10:20:00] ALERT: Unusual login attempt at non-working hours
+[20/Feb/2025:10:22:30] LOGIN FAILED: User 'support' from IP 10.0.0.55
+[20/Feb/2025:10:25:00] ALERT: Unauthorized login attempt detected from unknown device
+[20/Feb/2025:10:27:30] LOGIN FAILED: User 'admin' from IP 192.168.1.53
+[20/Feb/2025:10:30:00] ALERT: Brute force attack detected - 5 failed attempts in 2 minutes
+[20/Feb/2025:10:32:30] BLOCKED: IP 192.168.1.53 added to blacklist
+[20/Feb/2025:10:35:00] LOGIN FAILED: User 'guest' from IP 203.0.113.46
+[20/Feb/2025:10:37:30] ALERT: Multiple failed login attempts detected for user 'root'
+[20/Feb/2025:10:40:00] BLOCKED: User 'root' temporarily locked out
+[20/Feb/2025:10:42:30] LOGIN FAILED: User 'admin' from IP 192.168.1.54
+[20/Feb/2025:10:45:00] ALERT: Possible credential stuffing attack detected
+[20/Feb/2025:10:47:30] BLOCKED: User 'guest' account disabled due to repeated failures
+[20/Feb/2025:10:00:00] ALERT: High traffic spike detected - 10,000 requests in 1 min
+[20/Feb/2025:10:02:30] BLOCKED: IP 45.67.89.123 flagged for excessive traffic
+[20/Feb/2025:10:05:00] ALERT: Potential DoS attack detected from IP 203.0.113.22
+[20/Feb/2025:10:07:30] WARNING: Unusual HTTP request pattern observed
+[20/Feb/2025:10:10:00] ALERT: Repeated requests from blacklisted IP 192.168.1.99
+[20/Feb/2025:10:12:30] BLOCKED: Server overloaded, dropping connections from 203.0.113.22
+[20/Feb/2025:10:15:00] ALERT: Unusual number of POST requests in 30 seconds
+[20/Feb/2025:10:17:30] BLOCKED: IP 10.0.0.200 temporarily restricted
+[20/Feb/2025:10:20:00] ALERT: Excessive failed API calls detected
+[20/Feb/2025:10:22:30] WARNING: Unauthorized attempt to access '/admin'
+[20/Feb/2025:10:25:00] ALERT: Large number of concurrent connections from 192.168.1.88
+[20/Feb/2025:10:27:30] BLOCKED: Dropping packets from potential botnet 200.100.50.25
+[20/Feb/2025:10:30:00] ALERT: Unusual increase in UDP traffic
+[20/Feb/2025:10:32:30] WARNING: Multiple connection attempts from different ports
+[20/Feb/2025:10:35:00] ALERT: Server responding slowly due to high traffic
+[20/Feb/2025:10:37:30] BLOCKED: Firewall engaged to mitigate attack
+[20/Feb/2025:10:40:00] ALERT: Abnormal DNS queries detected
+[20/Feb/2025:10:42:30] BLOCKED: Dropping SYN flood attack packets
+[20/Feb/2025:10:45:00] ALERT: HTTP 503 errors increasing due to excessive requests
+[20/Feb/2025:10:47:30] WARNING: Server experiencing higher than usual CPU usage
+[20/Feb/2025:10:00:00] ALERT: Query extracting all customer records detected
+[20/Feb/2025:10:02:30] WARNING: User 'db_admin' attempted unauthorized data dump
+[20/Feb/2025:10:05:00] ALERT: Multiple failed authentication attempts on DB server
+[20/Feb/2025:10:07:30] WARNING: SQL Injection attempt detected in query string
+[20/Feb/2025:10:10:00] ALERT: User 'guest' attempting access to restricted tables
+[20/Feb/2025:10:12:30] BLOCKED: User 'hacker001' blacklisted for unauthorized queries
+[20/Feb/2025:10:15:00] WARNING: Large dataset export detected from finance_db
+[20/Feb/2025:10:17:30] ALERT: Suspicious modification of security logs
+[20/Feb/2025:10:20:00] BLOCKED: Query attempting to delete all records flagged
+[20/Feb/2025:10:22:30] ALERT: Unauthorized attempt to create new superuser
+[20/Feb/2025:10:25:00] WARNING: SQL injection-like query detected
+[20/Feb/2025:10:27:30] ALERT: User 'root' attempting remote DB login
+[20/Feb/2025:10:30:00] WARNING: Unexpected spike in query execution time
+[20/Feb/2025:10:32:30] ALERT: Database response time degrading
+[20/Feb/2025:10:35:00] BLOCKED: User 'temp_user' trying to access payroll_db
+[20/Feb/2025:10:37:30] WARNING: Attempt to GRANT ALL PRIVILEGES by unauthorized user
+[20/Feb/2025:10:40:00] ALERT: Potential data exfiltration detected
+[20/Feb/2025:10:42:30] WARNING: Large SELECT statement executed by unprivileged user
+[20/Feb/2025:10:45:00] ALERT: Unauthorized database schema changes detected
+[20/Feb/2025:10:47:30] BLOCKED: Dropping unauthorized remote connections
