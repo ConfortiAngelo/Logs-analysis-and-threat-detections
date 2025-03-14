@@ -1,60 +1,89 @@
-[20/Feb/2025:10:00:00] LOGIN FAILED: User 'admin' from IP 192.168.1.50
-[20/Feb/2025:10:02:30] LOGIN FAILED: User 'admin' from IP 192.168.1.51
-[20/Feb/2025:10:05:00] LOGIN FAILED: User 'admin' from IP 192.168.1.52
-[20/Feb/2025:10:07:30] ALERT: Multiple failed login attempts detected for user 'admin'
-[20/Feb/2025:10:10:00] BLOCKED: User 'admin' temporarily locked out
-[20/Feb/2025:10:12:30] LOGIN FAILED: User 'guest' from IP 192.168.1.60
-[20/Feb/2025:10:15:00] ALERT: Suspicious login from blacklisted IP 203.0.113.45
-[20/Feb/2025:10:17:30] LOGIN FAILED: User 'root' from IP 192.168.1.70
-[20/Feb/2025:10:20:00] ALERT: Unusual login attempt at non-working hours
-[20/Feb/2025:10:22:30] LOGIN FAILED: User 'support' from IP 10.0.0.55
-[20/Feb/2025:10:25:00] ALERT: Unauthorized login attempt detected from unknown device
-[20/Feb/2025:10:27:30] LOGIN FAILED: User 'admin' from IP 192.168.1.53
-[20/Feb/2025:10:30:00] ALERT: Brute force attack detected - 5 failed attempts in 2 minutes
-[20/Feb/2025:10:32:30] BLOCKED: IP 192.168.1.53 added to blacklist
-[20/Feb/2025:10:35:00] LOGIN FAILED: User 'guest' from IP 203.0.113.46
-[20/Feb/2025:10:37:30] ALERT: Multiple failed login attempts detected for user 'root'
-[20/Feb/2025:10:40:00] BLOCKED: User 'root' temporarily locked out
-[20/Feb/2025:10:42:30] LOGIN FAILED: User 'admin' from IP 192.168.1.54
-[20/Feb/2025:10:45:00] ALERT: Possible credential stuffing attack detected
-[20/Feb/2025:10:47:30] BLOCKED: User 'guest' account disabled due to repeated failures
-[20/Feb/2025:10:00:00] ALERT: High traffic spike detected - 10,000 requests in 1 min
-[20/Feb/2025:10:02:30] BLOCKED: IP 45.67.89.123 flagged for excessive traffic
-[20/Feb/2025:10:05:00] ALERT: Potential DoS attack detected from IP 203.0.113.22
-[20/Feb/2025:10:07:30] WARNING: Unusual HTTP request pattern observed
-[20/Feb/2025:10:10:00] ALERT: Repeated requests from blacklisted IP 192.168.1.99
-[20/Feb/2025:10:12:30] BLOCKED: Server overloaded, dropping connections from 203.0.113.22
-[20/Feb/2025:10:15:00] ALERT: Unusual number of POST requests in 30 seconds
-[20/Feb/2025:10:17:30] BLOCKED: IP 10.0.0.200 temporarily restricted
-[20/Feb/2025:10:20:00] ALERT: Excessive failed API calls detected
-[20/Feb/2025:10:22:30] WARNING: Unauthorized attempt to access '/admin'
-[20/Feb/2025:10:25:00] ALERT: Large number of concurrent connections from 192.168.1.88
-[20/Feb/2025:10:27:30] BLOCKED: Dropping packets from potential botnet 200.100.50.25
-[20/Feb/2025:10:30:00] ALERT: Unusual increase in UDP traffic
-[20/Feb/2025:10:32:30] WARNING: Multiple connection attempts from different ports
-[20/Feb/2025:10:35:00] ALERT: Server responding slowly due to high traffic
-[20/Feb/2025:10:37:30] BLOCKED: Firewall engaged to mitigate attack
-[20/Feb/2025:10:40:00] ALERT: Abnormal DNS queries detected
-[20/Feb/2025:10:42:30] BLOCKED: Dropping SYN flood attack packets
-[20/Feb/2025:10:45:00] ALERT: HTTP 503 errors increasing due to excessive requests
-[20/Feb/2025:10:47:30] WARNING: Server experiencing higher than usual CPU usage
-[20/Feb/2025:10:00:00] ALERT: Query extracting all customer records detected
-[20/Feb/2025:10:02:30] WARNING: User 'db_admin' attempted unauthorized data dump
-[20/Feb/2025:10:05:00] ALERT: Multiple failed authentication attempts on DB server
-[20/Feb/2025:10:07:30] WARNING: SQL Injection attempt detected in query string
-[20/Feb/2025:10:10:00] ALERT: User 'guest' attempting access to restricted tables
-[20/Feb/2025:10:12:30] BLOCKED: User 'hacker001' blacklisted for unauthorized queries
-[20/Feb/2025:10:15:00] WARNING: Large dataset export detected from finance_db
-[20/Feb/2025:10:17:30] ALERT: Suspicious modification of security logs
-[20/Feb/2025:10:20:00] BLOCKED: Query attempting to delete all records flagged
-[20/Feb/2025:10:22:30] ALERT: Unauthorized attempt to create new superuser
-[20/Feb/2025:10:25:00] WARNING: SQL injection-like query detected
-[20/Feb/2025:10:27:30] ALERT: User 'root' attempting remote DB login
-[20/Feb/2025:10:30:00] WARNING: Unexpected spike in query execution time
-[20/Feb/2025:10:32:30] ALERT: Database response time degrading
-[20/Feb/2025:10:35:00] BLOCKED: User 'temp_user' trying to access payroll_db
-[20/Feb/2025:10:37:30] WARNING: Attempt to GRANT ALL PRIVILEGES by unauthorized user
-[20/Feb/2025:10:40:00] ALERT: Potential data exfiltration detected
-[20/Feb/2025:10:42:30] WARNING: Large SELECT statement executed by unprivileged user
-[20/Feb/2025:10:45:00] ALERT: Unauthorized database schema changes detected
-[20/Feb/2025:10:47:30] BLOCKED: Dropping unauthorized remote connections
+[20/02/2025:14:00:05] server sshd[12345]: Invalid user admin from 192.168.1.10 port 45022  
+[20/02/2025:14:02:10] server sshd[23456]: Invalid user root from 10.0.0.5 port 32891  
+[20/02/2025:14:03:40] server sshd[34567]: Invalid user guest from 172.16.1.20 port 54321  
+[20/02/2025:14:05:12] server sshd[45678]: Invalid user test from 203.0.113.99 port 60000  
+[20/02/2025:14:06:55] server sshd[56789]: Invalid user support from 198.51.100.25 port 2222  
+[20/02/2025:14:08:30] server sshd[67890]: Invalid user devops from 192.168.3.40 port 7070  
+[20/02/2025:14:10:15] server sshd[78901]: Invalid user admin from 10.10.10.10 port 8080  
+[20/02/2025:14:12:45] server sshd[89012]: Invalid user test from 172.16.2.5 port 65000  
+[20/02/2025:14:14:20] server sshd[90123]: Invalid user user1 from 198.51.100.88 port 5900  
+[20/02/2025:14:16:55] server sshd[12312]: Invalid user sysadmin from 192.168.4.50 port 3306  
+[20/02/2025:14:18:30] server sshd[23423]: Invalid user guest from 172.20.10.2 port 1100  
+[20/02/2025:14:20:45] server sshd[34534]: Invalid user admin from 192.168.1.200 port 5060  
+[20/02/2025:14:22:15] server sshd[45645]: Invalid user user2 from 10.10.10.50 port 2525  
+[20/02/2025:14:24:40] server sshd[56756]: Invalid user security from 203.0.113.15 port 21  
+[20/02/2025:14:26:55] server sshd[67867]: Invalid user root from 172.16.5.5 port 993  
+[20/02/2025:14:28:30] server sshd[78978]: Invalid user backup from 198.51.100.99 port 25  
+[20/02/2025:14:30:15] server sshd[89089]: Invalid user deploy from 192.168.7.80 port 465  
+[20/02/2025:14:32:40] server sshd[90190]: Invalid user hacker from 10.10.10.100 port 2222  
+[20/02/2025:14:34:55] server sshd[11211]: Invalid user unknown from 172.16.3.10 port 3306  
+[20/02/2025:14:36:30] server sshd[22322]: Invalid user manager from 203.0.113.55 port 80  
+[20/02/2025:14:00:05] server kernel: IN=eth0 OUT= MAC=00:1A:2B:3C:4D:5E SRC=192.168.1.10 DST=203.0.113.42 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=54321 DF PROTO=TCP SPT=45022 DPT=22 WINDOW=14600 RES=0x00 SYN URGP=0
+[20/02/2025:14:02:14] server kernel: IN=eth1 OUT= MAC=11:22:33:44:55:66 SRC=172.16.0.5 DST=198.51.100.88 LEN=52 TOS=0x10 PREC=0x20 TTL=128 ID=1024 DF PROTO=UDP SPT=32891 DPT=53 WINDOW=8192 RES=0x00 URGP=0
+[20/02/2025:14:03:33] server kernel: IN=eth0 OUT= MAC=AA:BB:CC:DD:EE:FF SRC=10.0.0.8 DST=192.168.0.1 LEN=40 TOS=0x08 PREC=0x04 TTL=255 ID=3030 DF PROTO=ICMP SPT=54321 DPT=0 WINDOW=0 RES=0x00 URGP=0
+[20/02/2025:14:05:42] server kernel: IN=lo OUT= MAC=77:88:99:AA:BB:CC SRC=127.0.0.1 DST=127.0.0.1 LEN=100 TOS=0x00 PREC=0x00 TTL=64 ID=4001 DF PROTO=TCP SPT=2222 DPT=80 WINDOW=65535 RES=0x00 ACK URGP=0
+[20/02/2025:14:06:18] server kernel: IN=eth2 OUT= MAC=66:55:44:33:22:11 SRC=203.0.113.5 DST=192.168.2.15 LEN=70 TOS=0x20 PREC=0x10 TTL=128 ID=999 DF PROTO=TCP SPT=60000 DPT=443 WINDOW=29200 RES=0x00 PSH URGP=0
+[20/02/2025:14:08:59] server kernel: IN=eth1 OUT= MAC=00:FF:EE:DD:CC:BB SRC=192.168.3.20 DST=10.10.10.1 LEN=120 TOS=0x00 PREC=0x00 TTL=64 ID=6000 DF PROTO=UDP SPT=1025 DPT=161 WINDOW=1024 RES=0x00 URGP=0
+[20/02/2025:14:10:15] server kernel: IN=eth3 OUT= MAC=01:23:45:67:89:AB SRC=198.51.100.14 DST=172.16.5.4 LEN=55 TOS=0x40 PREC=0x02 TTL=32 ID=8754 DF PROTO=TCP SPT=34567 DPT=21 WINDOW=2048 RES=0x00 FIN URGP=0
+[20/02/2025:14:12:47] server kernel: IN=eth0 OUT= MAC=12:34:56:78:9A:BC SRC=10.10.10.10 DST=192.168.3.30 LEN=68 TOS=0x08 PREC=0x04 TTL=128 ID=1500 DF PROTO=TCP SPT=55000 DPT=993 WINDOW=12800 RES=0x00 SYN URGP=0
+[20/02/2025:14:13:30] server kernel: IN=lo OUT= MAC=FF:EE:DD:CC:BB:AA SRC=127.0.0.1 DST=127.0.0.1 LEN=50 TOS=0x00 PREC=0x00 TTL=64 ID=2500 DF PROTO=UDP SPT=4096 DPT=53 WINDOW=0 RES=0x00 URGP=0
+[20/02/2025:14:15:05] server kernel: IN=eth1 OUT= MAC=DE:AD:BE:EF:CA:FE SRC=192.168.4.30 DST=203.0.113.99 LEN=85 TOS=0x30 PREC=0x02 TTL=64 ID=12345 DF PROTO=TCP SPT=7070 DPT=143 WINDOW=4096 RES=0x00 SYN URGP=0
+[20/02/2025:14:16:49] server kernel: IN=eth2 OUT= MAC=BA:DC:0F:FE:ED:0C SRC=192.168.1.50 DST=198.51.100.77 LEN=75 TOS=0x18 PREC=0x01 TTL=64 ID=6789 DF PROTO=TCP SPT=8080 DPT=22 WINDOW=14600 RES=0x00 ACK URGP=0
+[20/02/2025:14:18:20] server kernel: IN=eth3 OUT= MAC=CA:FE:BA:BE:DE:AD SRC=10.0.1.5 DST=172.20.30.40 LEN=95 TOS=0x00 PREC=0x00 TTL=255 ID=3000 DF PROTO=UDP SPT=65000 DPT=123 WINDOW=512 RES=0x00 URGP=0
+[20/02/2025:14:19:11] server kernel: IN=eth0 OUT= MAC=AA:BB:CC:DD:EE:FF SRC=203.0.113.88 DST=10.0.0.1 LEN=70 TOS=0x00 PREC=0x00 TTL=64 ID=4321 DF PROTO=ICMP SPT=5900 DPT=0 WINDOW=0 RES=0x00 URGP=0
+[20/02/2025:14:21:34] server kernel: IN=eth1 OUT= MAC=11:22:33:44:55:66 SRC=172.20.10.2 DST=192.168.5.20 LEN=110 TOS=0x08 PREC=0x04 TTL=64 ID=8000 DF PROTO=TCP SPT=3022 DPT=25 WINDOW=2048 RES=0x00 SYN URGP=0
+[20/02/2025:14:23:09] server kernel: IN=eth2 OUT= MAC=00:1A:2B:3C:4D:5E SRC=198.51.100.99 DST=203.0.113.50 LEN=125 TOS=0x00 PREC=0x00 TTL=128 ID=500 DF PROTO=TCP SPT=1100 DPT=465 WINDOW=65535 RES=0x00 PSH URGP=0
+[20/02/2025:14:25:47] server kernel: IN=lo OUT= MAC=12:34:56:78:9A:BC SRC=127.0.0.1 DST=127.0.0.1 LEN=55 TOS=0x00 PREC=0x00 TTL=64 ID=3600 DF PROTO=UDP SPT=22222 DPT=53 WINDOW=0 RES=0x00 URGP=0
+[20/02/2025:14:27:55] server kernel: IN=eth3 OUT= MAC=77:88:99:AA:BB:CC SRC=10.10.10.20 DST=192.168.6.40 LEN=80 TOS=0x00 PREC=0x00 TTL=64 ID=5555 DF PROTO=TCP SPT=3306 DPT=443 WINDOW=32768 RES=0x00 ACK URGP=0
+[20/02/2025:14:29:30] server kernel: IN=eth1 OUT= MAC=AA:AA:AA:AA:AA:AA SRC=203.0.113.5 DST=172.16.0.1 LEN=64 TOS=0x10 PREC=0x02 TTL=32 ID=1700 DF PROTO=UDP SPT=4040 DPT=53 WINDOW=2048 RES=0x00 URGP=0
+[20/02/2025:14:31:10] server kernel: IN=eth2 OUT= MAC=BA:DC:0F:FE:ED:0C SRC=172.16.1.2 DST=10.10.10.30 LEN=105 TOS=0x00 PREC=0x00 TTL=64 ID=2222 DF PROTO=TCP SPT=5060 DPT=25 WINDOW=8192 RES=0x00 SYN URGP=0
+[20/02/2025:14:33:45] server kernel: IN=eth0 OUT= MAC=CA:FE:BA:BE:DE:AD SRC=192.168.5.200 DST=192.168.1.1 LEN=98 TOS=0x00 PREC=0x00 TTL=64 ID=2555 DF PROTO=TCP SPT=2525 DPT=80 WINDOW=4096 RES=0x00 SYN URGP=0
+[20/02/2025:14:00:05] server sshd[1023]: Failed password for root from 192.168.1.10 port 45022 ssh2
+[20/02/2025:14:02:14] server sshd[2048]: Accepted password for user1 from 172.16.0.5 port 32891 ssh2
+[20/02/2025:14:03:33] server sshd[3099]: Failed password for admin from 10.0.0.8 port 54321 ssh2
+[20/02/2025:14:05:42] server sshd[4112]: Accepted password for user2 from 192.168.2.15 port 2222 ssh2
+[20/02/2025:14:06:18] server sshd[5120]: Failed password for guest from 203.0.113.42 port 60000 ssh2
+[20/02/2025:14:08:59] server sshd[6231]: Accepted password for user3 from 192.168.3.20 port 1025 ssh2
+[20/02/2025:14:10:15] server sshd[7254]: Failed password for test from 198.51.100.14 port 34567 ssh2
+[20/02/2025:14:12:47] server sshd[8123]: Accepted password for user4 from 10.10.10.10 port 55000 ssh2
+[20/02/2025:14:13:30] server sshd[9312]: Failed password for operator from 172.31.255.1 port 4096 ssh2
+[20/02/2025:14:15:05] server sshd[10245]: Accepted password for user5 from 192.168.4.30 port 7070 ssh2
+[20/02/2025:14:16:49] server sshd[11234]: Failed password for backup from 192.168.1.50 port 8080 ssh2
+[20/02/2025:14:18:20] server sshd[12300]: Accepted password for user6 from 10.0.1.5 port 65000 ssh2
+[20/02/2025:14:19:11] server sshd[13567]: Failed password for service from 203.0.113.88 port 5900 ssh2
+[20/02/2025:14:21:34] server sshd[14788]: Accepted password for user7 from 172.20.10.2 port 3022 ssh2
+[20/02/2025:14:23:09] server sshd[15832]: Failed password for developer from 198.51.100.99 port 1100 ssh2
+[20/02/2025:14:25:47] server sshd[16321]: Accepted password for user8 from 192.168.10.100 port 22222 ssh2
+[20/02/2025:14:27:55] server sshd[17459]: Failed password for support from 10.10.10.20 port 3306 ssh2
+[20/02/2025:14:29:30] server sshd[18523]: Accepted password for user9 from 203.0.113.5 port 4040 ssh2
+[20/02/2025:14:31:10] server sshd[19600]: Failed password for security from 172.16.1.2 port 5060 ssh2
+[20/02/2025:14:33:45] server sshd[20789]: Accepted password for user10 from 192.168.5.200 port 2525 ssh2
+[20/02/2025:14:00:05] server sshd[12345]: Failed password for admin from 192.168.1.10 port 45022 ssh2  
+[20/02/2025:14:01:10] server kernel: IN=eth0 OUT= MAC=00:1A:2B:3C:4D:5E:6F SRC=10.0.0.5 DST=192.168.1.1 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=54321 DF PROTO=TCP SPT=32891 DPT=22 WINDOW=65535 RES=0x00 SYN URGP=0  
+[20/02/2025:14:02:15] server sshd[23456]: Invalid user root from 10.0.0.5 port 32891  
+[20/02/2025:14:03:20] server sshd[34567]: Failed password for test from 172.16.1.20 port 54321 ssh2  
+[20/02/2025:14:04:25] server kernel: IN=eth1 OUT= MAC=01:2B:3C:4D:5E:6F SRC=192.168.1.50 DST=10.10.10.1 LEN=52 TOS=0x10 PREC=0x10 TTL=128 ID=40000 DF PROTO=UDP SPT=65000 DPT=53 WINDOW=8192 RES=0x00 URGP=0  
+[20/02/2025:14:05:30] server sshd[45678]: Invalid user guest from 203.0.113.99 port 60000  
+[20/02/2025:14:06:35] server sshd[56789]: Failed password for sysadmin from 198.51.100.25 port 2222 ssh2  
+[20/02/2025:14:07:40] server kernel: IN=eth0 OUT= MAC=02:3B:4C:5D:6E:7F SRC=172.16.3.15 DST=192.168.1.100 LEN=64 TOS=0x08 PREC=0x08 TTL=60 ID=35000 PROTO=ICMP SPT=0 DPT=0 WINDOW=0 RES=0x00 URGP=0  
+[20/02/2025:14:08:45] server sshd[67890]: Invalid user devops from 192.168.3.40 port 7070  
+[20/02/2025:14:09:50] server sshd[78901]: Failed password for admin from 10.10.10.10 port 8080 ssh2  
+[20/02/2025:14:10:55] server kernel: IN=eth2 OUT= MAC=03:4B:5C:6D:7E:8F SRC=10.10.20.1 DST=192.168.1.50 LEN=48 TOS=0x20 PREC=0x20 TTL=90 ID=12345 PROTO=TCP SPT=443 DPT=5432 WINDOW=65535 RES=0x00 ACK URGP=0  
+[20/02/2025:14:12:00] server sshd[89012]: Invalid user test from 172.16.2.5 port 65000  
+[20/02/2025:14:13:05] server sshd[90123]: Failed password for user1 from 198.51.100.88 port 5900 ssh2  
+[20/02/2025:14:14:10] server kernel: IN=eth0 OUT= MAC=04:5B:6C:7D:8E:9F SRC=203.0.113.20 DST=10.0.0.10 LEN=76 TOS=0x40 PREC=0x40 TTL=50 ID=67890 PROTO=TCP SPT=25 DPT=993 WINDOW=8192 RES=0x00 SYN URGP=0  
+[20/02/2025:14:15:15] server sshd[11211]: Invalid user sysadmin from 192.168.4.50 port 3306  
+[20/02/2025:14:16:20] server sshd[12312]: Failed password for backup from 172.20.10.2 port 1100 ssh2  
+[20/02/2025:14:17:25] server kernel: IN=eth1 OUT= MAC=05:6B:7C:8D:9E:AF SRC=198.51.100.45 DST=172.16.2.1 LEN=50 TOS=0x00 PREC=0x00 TTL=64 ID=55555 DF PROTO=TCP SPT=587 DPT=25 WINDOW=4096 RES=0x00 ACK URGP=0  
+[20/02/2025:14:18:30] server sshd[23423]: Invalid user admin from 192.168.1.200 port 5060  
+[20/02/2025:14:19:35] server sshd[34534]: Failed password for user2 from 10.10.10.50 port 2525 ssh2  
+[20/02/2025:14:20:40] server kernel: IN=eth0 OUT= MAC=06:7B:8C:9D:AE:BF SRC=203.0.113.100 DST=192.168.5.5 LEN=80 TOS=0x60 PREC=0x60 TTL=48 ID=88888 PROTO=ICMP SPT=0 DPT=0 WINDOW=0 RES=0x00 URGP=0  
+[20/02/2025:14:21:45] server sshd[45645]: Invalid user security from 203.0.113.15 port 21  
+[20/02/2025:14:22:50] server sshd[56756]: Failed password for hacker from 172.16.5.5 port 993 ssh2  
+[20/02/2025:14:23:55] server kernel: IN=eth1 OUT= MAC=07:8B:9C:AD:BE:CF SRC=192.168.1.60 DST=10.10.10.100 LEN=44 TOS=0x10 PREC=0x10 TTL=70 ID=22222 PROTO=TCP SPT=3389 DPT=22 WINDOW=16384 RES=0x00 RST URGP=0  
+[20/02/2025:14:25:00] server sshd[67867]: Invalid user deploy from 198.51.100.99 port 25  
+[20/02/2025:14:26:05] server sshd[78978]: Failed password for unknown from 192.168.7.80 port 465 ssh2  
+[20/02/2025:14:27:10] server kernel: IN=eth0 OUT= MAC=08:9B:AC:BD:CE:DF SRC=10.10.20.30 DST=192.168.8.8 LEN=56 TOS=0x00 PREC=0x00 TTL=64 ID=33333 DF PROTO=TCP SPT=22 DPT=2222 WINDOW=65535 RES=0x00 SYN URGP=0  
+[20/02/2025:14:28:15] server sshd[89089]: Invalid user manager from 10.10.10.100 port 2222  
+[20/02/2025:14:29:20] server sshd[90190]: Failed password for admin from 172.16.3.10 port 3306 ssh2  
+[20/02/2025:14:30:25] server kernel: IN=eth2 OUT= MAC=09:AB:BC:CD:DE:EF SRC=203.0.113.55 DST=192.168.100.100 LEN=60 TOS=0x80 PREC=0x80 TTL=40 ID=77777 PROTO=TCP SPT=143 DPT=993 WINDOW=1024 RES=0x00 ACK URGP=0  
