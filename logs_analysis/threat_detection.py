@@ -57,5 +57,4 @@ def detections_threat(logs_lines):
             threats_access_denied.append(threats_access_denied_information)
     return threats_brute_force, threats_port_scan, threats_access_denied
 
-print(detections_threat(log_reader.read_logs(path)))
 

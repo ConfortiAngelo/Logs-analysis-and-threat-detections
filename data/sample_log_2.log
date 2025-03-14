@@ -1,3 +1,0 @@
-[20/02/2025:14:08:45] server sshd[67890]: Invalid user devops from 192.168.3.40 port 7070  
-[20/02/2025:14:06:18] server kernel: IN=eth2 OUT= MAC=66:55:44:33:22:11 SRC=203.0.113.5 DST=192.168.2.15 LEN=70 TOS=0x20 PREC=0x10 TTL=128 ID=999 DF PROTO=TCP SPT=60000 DPT=443 WINDOW=29200 RES=0x00 PSH URGP=0
-[20/02/2025:14:31:10] server sshd[19600]: Failed password for security from 172.16.1.2 port 5060 ssh2
