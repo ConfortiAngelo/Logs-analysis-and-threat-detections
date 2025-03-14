@@ -10,4 +10,3 @@ access_denied_regex = "\[(\d{2}/\d{2}/\d{4}:\d{2}:\d{2}:\d{2})\]\s*server\s*sshd
 
 # VARIABLES
 path = "/home/angelo/Escritorio/CURSO/Cibersecurity/Logs analysis and threat detection/data/sample_log_1.log"
-path_2 = "/home/angelo/Escritorio/CURSO/Cibersecurity/Logs analysis and threat detection/data/sample_log_2.log"
